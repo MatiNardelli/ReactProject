@@ -753,3 +753,4 @@ origin hace referencia al remoto (https://github.com.....) que agregamos
 main es la rama donde queremos desplegar.
 
 
+OBS: Si ya create una carpeta con git init y borras el repository y creas otro. Genera problema al hacer de nuevo git init. Borrar en el proyecto la carpeta .git y hacer todos los pasos nuevamente.
