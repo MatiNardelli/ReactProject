@@ -754,3 +754,27 @@ main es la rama donde queremos desplegar.
 
 
 OBS: Si ya create una carpeta con git init y borras el repository y creas otro. Genera problema al hacer de nuevo git init. Borrar en el proyecto la carpeta .git y hacer todos los pasos nuevamente.
+
+
+## readme.md
+
+codigo marDown parecido al html
+
+para subir una actualizacion a gitHub
+
+cambios locales
+
+1) git add .
+2) git commit -m "something"
+
+para desplegar en gitHub
+
+3) git push
+
+## GitHub Pages
+
+bibliografia: https://docs.github.com/en/enterprise/2.13/user/articles/setting-your-username-in-git
+
+
+para desplegar hay dos formas.
+1) cambiar nombre de la carpeta "dist" a "docs"
