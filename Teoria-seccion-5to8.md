@@ -778,3 +778,11 @@ bibliografia: https://docs.github.com/en/enterprise/2.13/user/articles/setting-y
 
 para desplegar hay dos formas.
 1) cambiar nombre de la carpeta "dist" a "docs"
+
+despues 
+
+    -git add .
+    -git commit -m "Docs Creados"
+    -git push (subo todo github)
+
+nos vamos a gitHub y dentro del repository, vamos a settings, pages, branch seleccionamos la rama que esta el docs, seleccionamos el docs y save.
