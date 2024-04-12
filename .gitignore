@@ -12,6 +12,10 @@ dist
 dist-ssr
 *.local
 
+# teoria
+Teoria-seccion-5to9.md
+
+
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json

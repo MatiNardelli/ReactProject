@@ -1109,3 +1109,24 @@ const onToggleTodoMock = jest.fn();
 beforeEach(()=>jest.clearAllMocks());
 
 esto nos permite llamar a la funcion y limpiar antes de cada test.
+
+# Solucion al siguiente error
+
+ Matcher error: expected value must be a string if received value is a string
+
+    Expected has type:  number
+    Expected has value: 1
+    Received has type:  string
+    Received has value: "{
+       \"id\": 1,
+       \"name\": \"Matias\"
+    }"
+
+
+    sucede que es un string y tenemos que transformar a strign el object que estamos evaluando so
+
+expect(preTag.innerHTML).toContain(user.id.toString());
+
+solucion 2:
+
+expect(preTag.innerHTML).toContain(`${user.id}`);    
